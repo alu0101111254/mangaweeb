@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<xsl:stylesheet version ="1.1"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version ="1.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match ="/">
     <HTML>
       <BODY>
@@ -14,15 +13,14 @@
               <tr>
                 <td>
                   <xsl:value-of select="."/><!--selecciona el primer elemento par-->
-                </td>
-                <td>
+                    </td>
+                    <td>
                   <xsl:value-of select="following-sibling::*[1]"/><!--selecciona el segundo elemento(supuestamente)-->
                 </td>
               </tr>
             </xsl:for-each>
+          </xsl:template>
           </table>
-
-
         </BODY>
       </HTML>
     </xsl:template>

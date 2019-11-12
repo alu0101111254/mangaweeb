@@ -1,5 +1,5 @@
 <?xml version='1.0' ?>
-<?xml-stylesheet type="text/xsl" href="plantilla_pub.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="../xsl/plantilla_pub.xsl" ?>
 
   <MANGA_DISTRIBUTORS>
     <!--imprimirlo como tablas paralelas descentradas, pero sin lineas las tablas,
@@ -7,7 +7,7 @@
     <DISTRIBUTOR>
       <COMPANY>SHUEISHA</COMPANY>
       <FOUNDING>1925</FOUNDING>
-      <LOGO></LOGO>
+      <LOGO>/img/shuesha.jpg</LOGO>
       <MAGAZINE_LIST>
         <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
         <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>

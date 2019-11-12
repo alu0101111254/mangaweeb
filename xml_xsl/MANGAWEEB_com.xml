@@ -5,7 +5,7 @@
   <MANGA>
     <TITULO>PLACEHOLDER, THE MANGA</TITULO>
     <AUTOR>LA VOLUNTAD DE DIOS</AUTOR>
-    <IMAGEN>C:\Users\Lucas\Desktop\placeholder.jpg</IMAGEN>
+    <IMAGEN>../img/placeholder.jpg</IMAGEN>
     <CAPITULOS>1000</CAPITULOS>
     <GENERO>ROMANCE</GENERO>
     <!--<GENERO>COMEDIA</GENERO>
@@ -13,7 +13,7 @@
     <TAG>PURE SOULS</TAG>
     <FECHA_ACTUALIZACION>30/10/2019</FECHA_ACTUALIZACION>
     <!--<SINOPSIS>pasan cosas, muere gente, se cargan al malo y se casan</SINOPSIS>
-     <OPINION>
+      <OPINION>
       <USUARIO>GODS INNOCENT LAMB</USUARIO>
       <TEXTO>SO INNOCENT, SO PURE,SO YOUTHFULL</TEXTO>
     </OPINION>

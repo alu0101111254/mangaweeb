@@ -12,7 +12,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <td>
               <img>
                 <xsl:attribute name="src">
-                <xsl:value-of select="IMAGEN">
+                <xsl:value-of select="IMAGEN"/>
                 </xsl:attribute>
               </img>
             </td>
