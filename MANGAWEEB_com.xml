@@ -1,0 +1,34 @@
+<?xml version='1.0' ?>
+<?xml-stylesheet type="text/xsl" href="p2.xsl" ?>
+
+  <!--manga de ejemplo, totalmente no real, no lo busques, seria una perdida de tiempo, enserio te lo juro, pls....-->
+  <MANGA>
+    <TITULO>PLACEHOLDER, THE MANGA</TITULO>
+    <AUTOR>LA VOLUNTAD DE DIOS</AUTOR>
+    <IMAGEN>C:\Users\Lucas\Desktop\placeholder.jpg</IMAGEN>
+    <CAPITULOS>1000</CAPITULOS>
+    <GENERO>ROMANCE</GENERO>
+    <!--<GENERO>COMEDIA</GENERO>
+    <TAG>HANDHOLDING</TAG>-->
+    <TAG>PURE SOULS</TAG>
+    <FECHA_ACTUALIZACION>30/10/2019</FECHA_ACTUALIZACION>
+    <!--<SINOPSIS>pasan cosas, muere gente, se cargan al malo y se casan</SINOPSIS>
+     <OPINION>
+      <USUARIO>GODS INNOCENT LAMB</USUARIO>
+      <TEXTO>SO INNOCENT, SO PURE,SO YOUTHFULL</TEXTO>
+    </OPINION>
+    <OPINION>
+      <USUARIO>GODS criminal LAMB</USUARIO>
+      <TEXTO>SO VILE, I LOVE IT ITS SO CRUEL</TEXTO>
+    </OPINION>
+    <RATING>5/5</RATING>
+    <POPULARIDAD>ALTA</POPULARIDAD>
+    <NUMVOLUMENES>420</NUMVOLUMENES>
+    <VOLUMEN>
+      <NUMERO>6<NUMERO>
+      <PORTADA>VOLUMEN6.jpg<PORTADA>
+      <RANGO>10-20</RANGO>
+      <DISPONIBILIDAD>JAPON,ESPAÑA</DISPONIBILIDAD>
+    </VOLUMEN>-->
+
+  </MANGA>

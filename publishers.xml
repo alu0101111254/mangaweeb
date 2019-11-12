@@ -1,0 +1,25 @@
+<?xml version='1.0' ?>
+<?xml-stylesheet type="text/xsl" href="plantilla_pub.xsl" ?>
+
+  <MANGA_DISTRIBUTORS>
+    <!--imprimirlo como tablas paralelas descentradas, pero sin lineas las tablas,
+    tipo como cuando pones info sobre los fundadores o mierdas asi-->
+    <DISTRIBUTOR>
+      <COMPANY>SHUEISHA</COMPANY>
+      <FOUNDING>1925</FOUNDING>
+      <LOGO></LOGO>
+      <MAGAZINE_LIST>
+        <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
+        <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
+        <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
+        <MAGAZINE>RIBBON</MAGAZINE>
+        <!--etcetera -->
+      </MAGAZINE_LIST>
+      <NOTABLE_SERIES>
+        <TITLE>NARUTO</TITLE>
+      </NOTABLE_SERIES>
+      <NOTABLE_MANGAKAS>
+        <NAME>PANCAKEMAN</NAME>
+      </NOTABLE_MANGAKAS>
+    </DISTRIBUTOR>
+  </MANGA_DISTRIBUTORS>
