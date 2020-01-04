@@ -48,7 +48,7 @@ button {
 }
 div.flex-list li:hover,
 div.flex-list li:focus {
-	color: #fff;
+	color: black;
 	background-color: #68b59d;
 	outline: 0;
 }
@@ -101,11 +101,11 @@ a.navbarfont:focus {
 	top: 11%;
 }
 body {
-	background-color: #a4b8b5;
+	background-color: #7a8886;
 }
 header {
 	background-color: #85e1d3;
-	border: 1px solid blueviolet;
+	border: thin solid blueviolet;
 	height: 11%;
 	width: 100%;
 }
