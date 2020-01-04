@@ -14,7 +14,7 @@ button {
 
 .flex-list {
 	position: relative;
-	margin: 1em;
+	margin: 1%;
 	overflow: hidden;
 }
 .flex-list ul {
@@ -22,24 +22,24 @@ button {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	background-color: #8ee6fa;
+	background-color: trasparent;
 	height: 10%;
 }
 .flex-list li {
 	box-sizing: border-box;
 	appearance: none;
-	background-color: transparent;
-	border: 2px solid red;
+	background-color: #81E2C0;
+	border: 2px solid #68B59D;
 	border-radius: 0.6em;
 	color: red;
 	cursor: pointer;
 	display: flex;
 	align-self: center;
-	font-size: 1rem;
-	font-weight: 400;
+	font-size: 70%;
+	font-weight: 120%;
 	line-height: 1;
 	margin: 0.1%;
-	padding: 1.2em 2.8em;
+	padding: 1% 2%;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
@@ -49,7 +49,7 @@ button {
 div.flex-list li:hover,
 div.flex-list li:focus {
 	color: #fff;
-	background-color: lightcoral;
+	background-color: #68B59D;
 	outline: 0;
 }
 
@@ -79,10 +79,11 @@ div.flex-list li:focus {
 	background-color: PaleGoldenRod;
 }
 .weeb {
-	margin: 0.35em;
-	font-size: 30;
-	color: red;
-	background-color: lightblue;
+	margin: 1%;
+	font-size: 180%;
+	color: darkgreen;
+  font-weight: bold;
+	background-color: transparent;
 }
 
 .mangalist {
@@ -100,13 +101,18 @@ div.flex-list li:focus {
 	border-left: 0px solid #ccc;
 	background-color: darkgray;
 }
+.mbody{
+  position: absolute;
+  top:11%;
+}
 body {
-	background-color: #484a4a;
+	background-color:#A4B8B5;
 }
 header {
-	background-color: #8ee6fa;
+	background-color: #85E1D3;
 	border: 1px solid blueviolet;
-	height: 80px;
+	height: 11%;
+  width: 100%;
 }
 /* .img-responsive {
     left:50%;
