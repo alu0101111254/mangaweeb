@@ -28,10 +28,10 @@ button {
 .flex-list li {
 	box-sizing: border-box;
 	appearance: none;
-	background-color: #81E2C0;
-	border: 2px solid #68B59D;
+	background-color: #81e2c0;
+	border: 2px solid #68b59d;
 	border-radius: 0.6em;
-	color: red;
+	color: black;
 	cursor: pointer;
 	display: flex;
 	align-self: center;
@@ -49,24 +49,19 @@ button {
 div.flex-list li:hover,
 div.flex-list li:focus {
 	color: #fff;
-	background-color: #68B59D;
+	background-color: #68b59d;
 	outline: 0;
+}
+
+a.navbarfont:hover,
+a.navbarfont:focus {
+	color: #fff;
 }
 
 .navbarfont {
 	font-size: 150%;
+	color: black;
 }
-/* .dpmenu{
-  border-radius: 5px;
-   padding: 10px;
-   display:block;
-   margin-top: -10px;
-   text-align: center;
-   height:60px;
-   width:220px;
-   border: 3px solid #ccc;
-   background-color:PaleGoldenRod;
-} */
 .dplogout {
 	border-radius: 5px;
 	padding: 10px;
@@ -80,9 +75,9 @@ div.flex-list li:focus {
 }
 .weeb {
 	margin: 1%;
-	font-size: 180%;
+	font-size: 220%;
 	color: darkgreen;
-  font-weight: bold;
+	font-weight: bold;
 	background-color: transparent;
 }
 
@@ -101,21 +96,20 @@ div.flex-list li:focus {
 	border-left: 0px solid #ccc;
 	background-color: darkgray;
 }
-.mbody{
-  position: absolute;
-  top:11%;
+.mbody {
+	position: absolute;
+	top: 11%;
 }
 body {
-	background-color:#A4B8B5;
+	background-color: #a4b8b5;
 }
 header {
-	background-color: #85E1D3;
+	background-color: #85e1d3;
 	border: 1px solid blueviolet;
 	height: 11%;
-  width: 100%;
+	width: 100%;
 }
-/* .img-responsive {
-    left:50%;
-    top:50%;
-    margin-left:125px;
-} */
+td {
+	vertical-align: top;
+	padding: 3%;
+}
