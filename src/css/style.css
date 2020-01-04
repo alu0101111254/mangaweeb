@@ -1,0 +1,146 @@
+body {
+  background: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+input, button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.main-div, .loggedin-div {
+  width: 20%;
+  margin: 0px auto;
+  margin-top: 150px;
+  padding: 20px;
+  display: none;
+}
+
+.main-div input {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div input:focus {
+  border: 1px solid #777;
+}
+
+.main-div button, .loggedin-div button {
+  background: #5d8ffc;
+  color: #fff;
+  border: 1px solid #5d8ffc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div button:hover, .loggedin-div button:hover {
+  background: #fff;
+  color: #5d8ffc;
+  border: 1px solid #5d8ffc;
+  cursor: pointer;
+}
+.flex-list {
+    position: relative;
+    margin: 1em;
+    overflow: hidden;
+}
+.flex-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:gold;
+    height:40px;
+}
+.flex-list li {
+   border-radius: 5px;
+    flex-grow: 0;
+    padding: 10px;
+    display:block;
+    display:inline-block;
+    margin-top: -10px;
+    text-align: center;
+    height:60px;
+    width:15%;
+    border: 3px solid #ccc;
+    background-color:PaleGoldenRod;
+}
+
+.navbarfont{
+    font-size: 150% ;
+}
+/* .dpmenu{
+  border-radius: 5px;
+   padding: 10px;
+   display:block;
+   margin-top: -10px;
+   text-align: center;
+   height:60px;
+   width:220px;
+   border: 3px solid #ccc;
+   background-color:PaleGoldenRod;
+} */
+.dplogout{
+  border-radius: 5px;
+   padding: 10px;
+   display:block;
+   margin-top: -10px;
+   text-align: center;
+   height:60px;
+   width:220px;
+   border: 3px solid #ccc;
+   background-color:PaleGoldenRod;
+}
+.weeb{
+  margin: 0.35em;
+    font-size: 30 ;
+    color:red;
+    background-color: gold;
+}
+
+.mangalist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0px;
+}
+.mangaimg {
+    flex-grow: 0;
+    padding: 0 0em;
+    display:block;
+    float:left;
+    border-left: 0px solid #ccc;
+    background-color: green;
+}
+body {
+  background-color: PaleGreen;
+
+}
+header {
+  background-color: gold;
+  border: 3px solid #ff9900;
+  height:80px;
+}
+/* .img-responsive {
+    left:50%;
+    top:50%;
+    margin-left:125px;
+} */

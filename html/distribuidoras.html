@@ -1,0 +1,104 @@
+<HTML>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+          MANGAWEEB.COM
+        </title>
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><script src="https://www.gstatic.com/firebasejs/7.6.1/firebase.js"></script><script src="index.js"></script>
+</head>
+<BODY>
+<header id="main-header">
+<nav class="navbar navbar-expand-lg ">
+<a class="navbar-brand weeb" type="button" href="index.html">
+              MANGAWEEB
+            </a>
+<div class="flex-list collapse navbar-collapse" id="navbarSupportedContent">
+<ul>
+<li>
+<center>
+<a class="nav-link navbarfont" type="button" href="index.html">
+                      Home
+                    </a>
+</center>
+</li>
+<li>
+<center>
+<a class="nav-link navbarfont" href="#login-modal" id="login" data-toggle="modal" data-target="#login-modal">
+                      Iniciar
+                      sesion
+                    </a>
+</center>
+</li>
+<li>
+<a class="nav-link navbarfont" href="#signup-modal" id="signup" data-toggle="modal" data-target="#signup-modal">
+                    Registrarse
+                  </a>
+</li>
+<li class="nav-item" style="float:right">
+<a class="nav-link navbarfont" href="">
+                    Distribuidoras
+                  </a>
+</li>
+<li>
+<a class="nav-link dropdown-toggle navbarfont" href="#" id="showuser" role="button" data-toggle="dropdown" haspopup="true" expanded="false"></a>
+<div class="dropdown-menu navbarfont dpmenu dropdown-menu-right" labelledby="showuser">
+<button class="dropdown-item navbarfont dplogout" id="1" onclick="logout()">
+                        logout
+                      </button>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<h2> MANGAWEEB.CO </h2>
+<br>
+<table>
+<td><img src="../img/placeholder.jpg"></td><td>PLACEHOLDER, THE MANGA<br>LA VOLUNTAD DE DIOS</td>
+</table>
+<div class=" modal fade" role="dialog" id="login-modal">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">
+          Iniciar sesion
+        </h3>
+<button type="button" class="close" dismiss="modal">
+          X
+        </button>
+</div>
+<div class="modal-body">
+<input type="email" placeholder="Email..." id="email_field"><input type="password" placeholder="Password..." id="password_field"><button onclick="login()">
+          Iniciar sesion
+        </button>
+</div>
+</div>
+</div>
+</div>
+<div class=" modal fade" role="dialog" id="signup-modal">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">
+          Registrarse
+        </h3>
+<button type="button" class="close" dismiss="modal">
+          X
+        </button>
+</div>
+<div class="modal-body">
+<input type="email" placeholder="Email..." id="signup_email_field"><input type="password" placeholder="Contrase&ntilde;a" id="signup_password_field"><input type="password" placeholder="Confirme la contrase&ntilde;a" id="signup_password_field2">
+</div>
+<div class="modal-footer">
+<button onclick="signup()">
+          Registrarse
+        </button>
+</div>
+</div>
+</div>
+</div>
+</BODY>
+</HTML>
