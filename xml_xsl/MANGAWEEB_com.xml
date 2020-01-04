@@ -8,14 +8,13 @@
   tipo como cuando pones info sobre los fundadores o mierdas asi-->
   <DISTRIBUTOR>
     <COMPANY>SHUEISHA</COMPANY>
-    <FOUNDING>1925</FOUNDING>
-    <LOGO>/img/shuesha.jpg</LOGO>
+    <FOUNDING>Founded in 1925</FOUNDING>
+    <LOGO>https://dragonball.center/files/module_dbc/fabricantes/lkyg698.jpg</LOGO>
     <MAGAZINE_LIST>
       <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
       <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
       <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
       <MAGAZINE>RIBBON</MAGAZINE>
-      <!--etcetera -->
     </MAGAZINE_LIST>
     <NOTABLE_SERIES>
       <TITLE>NARUTO</TITLE>
@@ -25,99 +24,71 @@
     </NOTABLE_SERIES>
     <NOTABLE_MANGAKAS>
       <NAME>Pancakeman</NAME>
-      <NAME>Togashi</NAME>
+      <NAME>Kubo</NAME>
       <NAME>Oda</NAME>
       <NAME>Kishimoto</NAME>
     </NOTABLE_MANGAKAS>
   </DISTRIBUTOR>
   <DISTRIBUTOR>
-    <COMPANY>SHUEISHA</COMPANY>
-    <FOUNDING>1925</FOUNDING>
-    <LOGO>/img/shuesha.jpg</LOGO>
+    <COMPANY>Square Enix</COMPANY>
+    <FOUNDING>Founded in 2003</FOUNDING>
+    <LOGO>https://theworldwentaway.files.wordpress.com/2012/10/square-enix-logo-e1295410088534.jpg?w=800</LOGO>
     <MAGAZINE_LIST>
-      <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
-      <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
-      <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
-      <MAGAZINE>RIBBON</MAGAZINE>
+      <MAGAZINE>GANGAN COMICS </MAGAZINE>
       <!--etcetera -->
     </MAGAZINE_LIST>
     <NOTABLE_SERIES>
-      <TITLE>NARUTO</TITLE>
+      <TITLE>Fullmetal Alchemist</TITLE>
+      <TITLE>Soul Eater</TITLE>
+      <TITLE>Kingdom Hearts</TITLE>
     </NOTABLE_SERIES>
     <NOTABLE_MANGAKAS>
-      <NAME>PANCAKEMAN</NAME>
+      <NAME>Arakawa</NAME>
+      <NAME>Okubo</NAME>
     </NOTABLE_MANGAKAS>
   </DISTRIBUTOR>
   <DISTRIBUTOR>
-    <COMPANY>SHUEISHA</COMPANY>
-    <FOUNDING>1925</FOUNDING>
-    <LOGO>/img/shuesha.jpg</LOGO>
+    <COMPANY>Mag Garden</COMPANY>
+    <FOUNDING>Founded in 2001</FOUNDING>
+    <LOGO>https://upload.wikimedia.org/wikipedia/commons/5/5c/MAG-garden_logo.png</LOGO>
     <MAGAZINE_LIST>
-      <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
-      <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
-      <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
-      <MAGAZINE>RIBBON</MAGAZINE>
+      <MAGAZINE>Monthly Comic Avarus</MAGAZINE>
+      <MAGAZINE>Monthly Comic Garden</MAGAZINE>
+      <MAGAZINE>Eden</MAGAZINE>
       <!--etcetera -->
     </MAGAZINE_LIST>
     <NOTABLE_SERIES>
-      <TITLE>NARUTO</TITLE>
+      <TITLE>Sketchbook</TITLE>
+      <TITLE>Shimoneta terrorist</TITLE>
+      <TITLE>Psycho Pass</TITLE>
     </NOTABLE_SERIES>
     <NOTABLE_MANGAKAS>
-      <NAME>PANCAKEMAN</NAME>
+      <NAME>Akagi</NAME>
+      <NAME>Totan Kobako</NAME>
+      <NAME>Hikaru Miyoshi</NAME>
     </NOTABLE_MANGAKAS>
   </DISTRIBUTOR>
   <DISTRIBUTOR>
-    <COMPANY>SHUEISHA</COMPANY>
-    <FOUNDING>1925</FOUNDING>
-    <LOGO>/img/shuesha.jpg</LOGO>
+    <COMPANY>Akita Shoten</COMPANY>
+    <FOUNDING>Founded in 1948</FOUNDING>
+    <LOGO>https://upload.wikimedia.org/wikipedia/commons/4/48/Akita_Shoten_logo.png</LOGO>
     <MAGAZINE_LIST>
-      <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
-      <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
-      <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
-      <MAGAZINE>RIBBON</MAGAZINE>
+      <MAGAZINE>Bessatsu Shōnen Champion</MAGAZINE>
+      <MAGAZINE>Champion Red</MAGAZINE>
+      <MAGAZINE>Young Champion</MAGAZINE>
+      <MAGAZINE>Princess</MAGAZINE>
       <!--etcetera -->
     </MAGAZINE_LIST>
     <NOTABLE_SERIES>
-      <TITLE>NARUTO</TITLE>
+      <TITLE>Saint Seiya</TITLE>
+      <TITLE>Devilman G</TITLE>
+      <TITLE>Aki Sora</TITLE>
+      <TITLE>Kuro Bara Alice</TITLE>
     </NOTABLE_SERIES>
     <NOTABLE_MANGAKAS>
-      <NAME>PANCAKEMAN</NAME>
-    </NOTABLE_MANGAKAS>
-  </DISTRIBUTOR>
-  <DISTRIBUTOR>
-    <COMPANY>SHUEISHA</COMPANY>
-    <FOUNDING>1925</FOUNDING>
-    <LOGO>/img/shuesha.jpg</LOGO>
-    <MAGAZINE_LIST>
-      <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
-      <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
-      <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
-      <MAGAZINE>RIBBON</MAGAZINE>
-      <!--etcetera -->
-    </MAGAZINE_LIST>
-    <NOTABLE_SERIES>
-      <TITLE>NARUTO</TITLE>
-    </NOTABLE_SERIES>
-    <NOTABLE_MANGAKAS>
-      <NAME>PANCAKEMAN</NAME>
-    </NOTABLE_MANGAKAS>
-  </DISTRIBUTOR>
-  <DISTRIBUTOR>
-    <COMPANY>SHUEISHA</COMPANY>
-    <FOUNDING>1925</FOUNDING>
-    <LOGO>/img/shuesha.jpg</LOGO>
-    <MAGAZINE_LIST>
-      <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
-      <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
-      <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
-      <MAGAZINE>RIBBON</MAGAZINE>
-      <!--etcetera -->
-    </MAGAZINE_LIST>
-    <NOTABLE_SERIES>
-      <TITLE>NARUTO</TITLE>
-    </NOTABLE_SERIES>
-    <NOTABLE_MANGAKAS>
-      <NAME>PANCAKEMAN</NAME>
+      <NAME>Masahiro Itosugi</NAME>
+      <NAME>Nagai</NAME>
+      <NAME>Kuori</NAME>
     </NOTABLE_MANGAKAS>
   </DISTRIBUTOR>
 </MANGA_DISTRIBUTORS>

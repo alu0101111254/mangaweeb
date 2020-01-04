@@ -1,9 +1,10 @@
-<?xml version="1.0" ?>
-<xsl:stylesheet version="1.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<?xml version="1.0"?>
+<xsl:stylesheet version ="1.1"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template name="user.header.content">
-    <xsl:variable name="codefile" select="document('index.html',/)" />
+    <xsl:variable name="codefile" select="document('index.html',/)"/>
   </xsl:template>
-  <xsl:template match="/">
+  <xsl:template match ="/">
     <HTML>
       <head>
         <title>
@@ -11,12 +12,13 @@
         </title>
         <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet"></link>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
-        <link rel="stylesheet" href="../src/css/style.css"></link>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase.js"></script>
-        <script src="../src/js/index.js"></script>
+        <link rel="stylesheet" href="../src/css/style.css" ></link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" ></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase.js" ></script>
+        <script src="../src/js/index.js" ></script>
       </head>
+
 
 
       <BODY>
@@ -76,152 +78,177 @@
                     Distribuidoras
                   </xsl:element>
                 </xsl:element>
-                <xsl:element name="li">
-                  <xsl:element name="a">
-                    <xsl:attribute name="class">nav-link dropdown-toggle navbarfont</xsl:attribute>
-                    <xsl:attribute name="href">#</xsl:attribute>
-                    <xsl:attribute name="id">showuser</xsl:attribute>
-                    <xsl:attribute name="role">button</xsl:attribute>
-                    <xsl:attribute name="data-toggle">dropdown</xsl:attribute>
-                    <xsl:attribute name="haspopup">true</xsl:attribute>
-                    <xsl:attribute name="expanded">false</xsl:attribute>
-                  </xsl:element>
-                  <xsl:element name="div">
-                    <xsl:attribute name="class">dropdown-menu navbarfont dpmenu dropdown-menu-right</xsl:attribute>
-                    <xsl:attribute name="labelledby">showuser</xsl:attribute>
-                    <xsl:element name="button">
-                      <xsl:attribute name="class">dropdown-item navbarfont dplogout</xsl:attribute>
-                      <xsl:attribute name="id">1</xsl:attribute>
-                      <xsl:attribute name="onclick">logout()</xsl:attribute>
-                      logout
+                  <xsl:element name="li">
+                    <xsl:element name="a">
+                      <xsl:attribute name="class">nav-link dropdown-toggle navbarfont</xsl:attribute>
+                      <xsl:attribute name="href">#</xsl:attribute>
+                      <xsl:attribute name="id">showuser</xsl:attribute>
+                      <xsl:attribute name="role">button</xsl:attribute>
+                      <xsl:attribute name="data-toggle">dropdown</xsl:attribute>
+                      <xsl:attribute name="haspopup">true</xsl:attribute>
+                      <xsl:attribute name="expanded">false</xsl:attribute>
+                    </xsl:element>
+                    <xsl:element name="div">
+                      <xsl:attribute name="class">dropdown-menu navbarfont dpmenu dropdown-menu-right</xsl:attribute>
+                      <xsl:attribute name="labelledby">showuser</xsl:attribute>
+                      <xsl:element name="button">
+                        <xsl:attribute name="class">dropdown-item navbarfont dplogout</xsl:attribute>
+                        <xsl:attribute name="id">1</xsl:attribute>
+                        <xsl:attribute name="onclick">logout()</xsl:attribute>
+                        logout
+                      </xsl:element>
                     </xsl:element>
                   </xsl:element>
-                </xsl:element>
               </xsl:element>
             </xsl:element>
           </xsl:element>
         </xsl:element>
 
-
-        <!-- <h2> MANGAWEEB.CO </h2>
         <br>
         </br>
-        <table>
-          <xsl:for-each select="MANGA">
-            <td>
-              <img>
-                <xsl:attribute name="src">
-                  <xsl:value-of select="IMAGEN"/>
-                </xsl:attribute>
-              </img>
-            </td>
-            <td>
-              <xsl:value-of select="TITULO"/>
+        <xsl:element name="table">
+          <xsl:for-each select="MANGA_DISTRIBUTORS/DISTRIBUTOR">
+            <xsl:element name="td">
+
+              <xsl:value-of select="COMPANY"/>
               <br>
               </br>
-              <xsl:value-of select="AUTOR"/>
-            </td>
+              <xsl:element name="img">
+                <xsl:attribute name="src">
+                  <xsl:value-of select="LOGO"/>
+                </xsl:attribute>
+                <xsl:attribute name="height">200</xsl:attribute>
+                <xsl:attribute name="width">300</xsl:attribute>
+              </xsl:element>
+              <br>
+              </br>
+              <xsl:value-of select="FOUNDING"/>
+              <p>Magazines:</p>
+                <xsl:for-each select="MAGAZINE_LIST/MAGAZINE">
+                  <xsl:element name="li">
+                    <xsl:value-of select="."/>
+                  </xsl:element>
+                </xsl:for-each>
+              <p>Notable Mangas:</p>
+                <xsl:for-each select="NOTABLE_SERIES/TITLE">
+                  <xsl:element name="li">
+                    <xsl:value-of select="."/>
+                  </xsl:element>
+                </xsl:for-each>
+              <p>Notable Mangakas:</p>
+                <xsl:for-each select="NOTABLE_MANGAKAS/NAME">
+                  <xsl:element name="li">
+                    <xsl:value-of select="."/>
+                  </xsl:element>
+                </xsl:for-each>
+            </xsl:element>
+            <br>
+            </br>
           </xsl:for-each>
-        </table> -->
+        </xsl:element>
+
+
+
+
 
 
         <!-- VENTANAS EMERGENTES BOOTSTRAP -->
 
-        <xsl:element name="div">
-          <xsl:attribute name="class"> modal fade</xsl:attribute>
-          <xsl:attribute name="role">dialog</xsl:attribute>
-          <xsl:attribute name="id">login-modal</xsl:attribute>
-          <xsl:element name="div">
-            <xsl:attribute name="class">modal-dialog modal-dialog-centered</xsl:attribute>
-            <xsl:element name="div">
-              <xsl:attribute name="class">modal-content</xsl:attribute>
-              <xsl:element name="div">
-                <xsl:attribute name="class">modal-header</xsl:attribute>
-                <xsl:element name="h3">
-                  <xsl:attribute name="class">modal-title</xsl:attribute>
-                  Iniciar sesion
-                </xsl:element>
-                <xsl:element name="button">
-                  <xsl:attribute name="type">button</xsl:attribute>
-                  <xsl:attribute name="class">close</xsl:attribute>
-                  <xsl:attribute name="dismiss">modal</xsl:attribute>
-                  X
-                </xsl:element>
-              </xsl:element>
-              <xsl:element name="div">
-                <xsl:attribute name="class">modal-body</xsl:attribute>
-                <xsl:element name="input">
-                  <xsl:attribute name="type">email</xsl:attribute>
-                  <xsl:attribute name="placeholder">Email...</xsl:attribute>
-                  <xsl:attribute name="id">email_field</xsl:attribute>
-                </xsl:element>
-                <xsl:element name="input">
-                  <xsl:attribute name="type">password</xsl:attribute>
-                  <xsl:attribute name="placeholder">Password...</xsl:attribute>
-                  <xsl:attribute name="id">password_field</xsl:attribute>
-                </xsl:element>
-                <xsl:element name="button">
-                  <xsl:attribute name="onclick">login()</xsl:attribute>
-                  Iniciar sesion
-                </xsl:element>
-              </xsl:element>
-            </xsl:element>
-          </xsl:element>
+<xsl:element name="div">
+  <xsl:attribute name="class"> modal fade</xsl:attribute>
+  <xsl:attribute name="role">dialog</xsl:attribute>
+  <xsl:attribute name="id">login-modal</xsl:attribute>
+  <xsl:element name="div">
+    <xsl:attribute name="class">modal-dialog modal-dialog-centered</xsl:attribute>
+    <xsl:element name="div">
+      <xsl:attribute name="class">modal-content</xsl:attribute>
+      <xsl:element name="div">
+        <xsl:attribute name="class">modal-header</xsl:attribute>
+        <xsl:element name="h3">
+          <xsl:attribute name="class">modal-title</xsl:attribute>
+          Iniciar sesion
         </xsl:element>
-        <xsl:element name="div">
-          <xsl:attribute name="class"> modal fade</xsl:attribute>
-          <xsl:attribute name="role">dialog</xsl:attribute>
-          <xsl:attribute name="id">signup-modal</xsl:attribute>
-          <xsl:element name="div">
-            <xsl:attribute name="class">modal-dialog modal-dialog-centered</xsl:attribute>
-            <xsl:element name="div">
-              <xsl:attribute name="class">modal-content</xsl:attribute>
-              <xsl:element name="div">
-                <xsl:attribute name="class">modal-header</xsl:attribute>
-                <xsl:element name="h3">
-                  <xsl:attribute name="class">modal-title</xsl:attribute>
-                  Registrarse
-                </xsl:element>
-                <xsl:element name="button">
-                  <xsl:attribute name="type">button</xsl:attribute>
-                  <xsl:attribute name="class">close</xsl:attribute>
-                  <xsl:attribute name="dismiss">modal</xsl:attribute>
-                  X
-                </xsl:element>
-              </xsl:element>
-              <xsl:element name="div">
-                <xsl:attribute name="class">modal-body</xsl:attribute>
-                <xsl:element name="input">
-                  <xsl:attribute name="type">email</xsl:attribute>
-                  <xsl:attribute name="placeholder">Email...</xsl:attribute>
-                  <xsl:attribute name="id">signup_email_field</xsl:attribute>
-                </xsl:element>
-                <xsl:element name="input">
-                  <xsl:attribute name="type">password</xsl:attribute>
-                  <xsl:attribute name="placeholder">Contraseña</xsl:attribute>
-                  <xsl:attribute name="id">signup_password_field</xsl:attribute>
-                </xsl:element>
-                <xsl:element name="input">
-                  <xsl:attribute name="type">password</xsl:attribute>
-                  <xsl:attribute name="placeholder">Confirme la contraseña</xsl:attribute>
-                  <xsl:attribute name="id">signup_password_field2</xsl:attribute>
-                </xsl:element>
-              </xsl:element>
-              <xsl:element name="div">
-                <xsl:attribute name="class">modal-footer</xsl:attribute>
-                <xsl:element name="button">
-                  <xsl:attribute name="onclick">signup()</xsl:attribute>
-                  Registrarse
-                </xsl:element>
-              </xsl:element>
-            </xsl:element>
-          </xsl:element>
+        <xsl:element name="button">
+          <xsl:attribute name="type">button</xsl:attribute>
+          <xsl:attribute name="class">close</xsl:attribute>
+          <xsl:attribute name="dismiss">modal</xsl:attribute>
+          X
         </xsl:element>
+      </xsl:element>
+      <xsl:element name="div">
+        <xsl:attribute name="class">modal-body</xsl:attribute>
+        <xsl:element name="input">
+          <xsl:attribute name="type">email</xsl:attribute>
+          <xsl:attribute name="placeholder">Email...</xsl:attribute>
+          <xsl:attribute name="id">email_field</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="input">
+          <xsl:attribute name="type">password</xsl:attribute>
+          <xsl:attribute name="placeholder">Password...</xsl:attribute>
+          <xsl:attribute name="id">password_field</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="button">
+          <xsl:attribute name="onclick">login()</xsl:attribute>
+          Iniciar sesion
+        </xsl:element>
+      </xsl:element>
+    </xsl:element>
+  </xsl:element>
+</xsl:element>
+<xsl:element name="div">
+  <xsl:attribute name="class"> modal fade</xsl:attribute>
+  <xsl:attribute name="role">dialog</xsl:attribute>
+  <xsl:attribute name="id">signup-modal</xsl:attribute>
+  <xsl:element name="div">
+    <xsl:attribute name="class">modal-dialog modal-dialog-centered</xsl:attribute>
+    <xsl:element name="div">
+      <xsl:attribute name="class">modal-content</xsl:attribute>
+      <xsl:element name="div">
+        <xsl:attribute name="class">modal-header</xsl:attribute>
+        <xsl:element name="h3">
+          <xsl:attribute name="class">modal-title</xsl:attribute>
+          Registrarse
+        </xsl:element>
+        <xsl:element name="button">
+          <xsl:attribute name="type">button</xsl:attribute>
+          <xsl:attribute name="class">close</xsl:attribute>
+          <xsl:attribute name="dismiss">modal</xsl:attribute>
+          X
+        </xsl:element>
+      </xsl:element>
+      <xsl:element name="div">
+        <xsl:attribute name="class">modal-body</xsl:attribute>
+        <xsl:element name="input">
+          <xsl:attribute name="type">email</xsl:attribute>
+          <xsl:attribute name="placeholder">Email...</xsl:attribute>
+          <xsl:attribute name="id">signup_email_field</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="input">
+          <xsl:attribute name="type">password</xsl:attribute>
+          <xsl:attribute name="placeholder">Contraseña</xsl:attribute>
+          <xsl:attribute name="id">signup_password_field</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="input">
+          <xsl:attribute name="type">password</xsl:attribute>
+          <xsl:attribute name="placeholder">Confirme la contraseña</xsl:attribute>
+          <xsl:attribute name="id">signup_password_field2</xsl:attribute>
+        </xsl:element>
+      </xsl:element>
+      <xsl:element name="div">
+        <xsl:attribute name="class">modal-footer</xsl:attribute>
+        <xsl:element name="button">
+          <xsl:attribute name="onclick">signup()</xsl:attribute>
+          Registrarse
+        </xsl:element>
+      </xsl:element>
+    </xsl:element>
+  </xsl:element>
+</xsl:element>
 
 
-      </BODY>
+</BODY>
 
-    </HTML>
+</HTML>
 
-  </xsl:template>
+</xsl:template>
 </xsl:stylesheet>
