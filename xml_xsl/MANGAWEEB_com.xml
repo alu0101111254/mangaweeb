@@ -1,55 +1,123 @@
 <?xml version='1.0' ?>
 <?xml-stylesheet type="text/xsl" href="p2.xsl" ?>
 
-  <!--manga de ejemplo, totalmente no real, no lo busques, seria una perdida de tiempo, enserio te lo juro, pls....-->
-  <MANGA>
-    <TITULO>PLACEHOLDER, THE MANGA</TITULO>
-    <AUTOR>LA VOLUNTAD DE DIOS</AUTOR>
-    <IMAGEN>../img/placeholder.jpg</IMAGEN>
-    <CAPITULOS>1000</CAPITULOS>
-    <GENERO>ROMANCE</GENERO>
-    <!--<GENERO>COMEDIA</GENERO>
-    <TAG>HANDHOLDING</TAG>-->
-    <TAG>PURE SOULS</TAG>
-    <FECHA_ACTUALIZACION>30/10/2019</FECHA_ACTUALIZACION>
-    <!--<SINOPSIS>pasan cosas, muere gente, se cargan al malo y se casan</SINOPSIS>
-      <OPINION>
-      <USUARIO>GODS INNOCENT LAMB</USUARIO>
-      <TEXTO>SO INNOCENT, SO PURE,SO YOUTHFULL</TEXTO>
-    </OPINION>
-    <OPINION>
-      <USUARIO>GODS criminal LAMB</USUARIO>
-      <TEXTO>SO VILE, I LOVE IT ITS SO CRUEL</TEXTO>
-    </OPINION>
-    <RATING>5/5</RATING>
-    <POPULARIDAD>ALTA</POPULARIDAD>
-    <NUMVOLUMENES>420</NUMVOLUMENES>
-    <VOLUMEN>
-      <NUMERO>6<NUMERO>
-      <PORTADA>VOLUMEN6.jpg<PORTADA>
-      <RANGO>10-20</RANGO>
-      <DISPONIBILIDAD>JAPON,ESPAÑA</DISPONIBILIDAD>
-    </VOLUMEN>-->
-    <MANGA_DISTRIBUTORS>
-      <!--imprimirlo como tablas paralelas descentradas, pero sin lineas las tablas,
-      tipo como cuando pones info sobre los fundadores o mierdas asi-->
-      <DISTRIBUTOR>
-        <COMPANY>SHUEISHA</COMPANY>
-        <FOUNDING>1925</FOUNDING>
-        <LOGO>/img/shuesha.jpg</LOGO>
-        <MAGAZINE_LIST>
-          <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
-          <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
-          <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
-          <MAGAZINE>RIBBON</MAGAZINE>
-          <!--etcetera -->
-        </MAGAZINE_LIST>
-        <NOTABLE_SERIES>
-          <TITLE>NARUTO</TITLE>
-        </NOTABLE_SERIES>
-        <NOTABLE_MANGAKAS>
-          <NAME>PANCAKEMAN</NAME>
-        </NOTABLE_MANGAKAS>
-      </DISTRIBUTOR>
-    </MANGA_DISTRIBUTORS>
-  </MANGA>
+<!--manga de ejemplo, totalmente no real, no lo busques, seria una perdida de tiempo, enserio te lo juro, pls....-->
+
+<MANGA_DISTRIBUTORS>
+  <!--imprimirlo como tablas paralelas descentradas, pero sin lineas las tablas,
+  tipo como cuando pones info sobre los fundadores o mierdas asi-->
+  <DISTRIBUTOR>
+    <COMPANY>SHUEISHA</COMPANY>
+    <FOUNDING>1925</FOUNDING>
+    <LOGO>/img/shuesha.jpg</LOGO>
+    <MAGAZINE_LIST>
+      <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
+      <MAGAZINE>RIBBON</MAGAZINE>
+      <!--etcetera -->
+    </MAGAZINE_LIST>
+    <NOTABLE_SERIES>
+      <TITLE>NARUTO</TITLE>
+      <TITLE>BLEACH</TITLE>
+      <TITLE>Black Clover</TITLE>
+      <TITLE>HunterxHunter</TITLE>
+    </NOTABLE_SERIES>
+    <NOTABLE_MANGAKAS>
+      <NAME>Pancakeman</NAME>
+      <NAME>Togashi</NAME>
+      <NAME>Oda</NAME>
+      <NAME>Kishimoto</NAME>
+    </NOTABLE_MANGAKAS>
+  </DISTRIBUTOR>
+  <DISTRIBUTOR>
+    <COMPANY>SHUEISHA</COMPANY>
+    <FOUNDING>1925</FOUNDING>
+    <LOGO>/img/shuesha.jpg</LOGO>
+    <MAGAZINE_LIST>
+      <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
+      <MAGAZINE>RIBBON</MAGAZINE>
+      <!--etcetera -->
+    </MAGAZINE_LIST>
+    <NOTABLE_SERIES>
+      <TITLE>NARUTO</TITLE>
+    </NOTABLE_SERIES>
+    <NOTABLE_MANGAKAS>
+      <NAME>PANCAKEMAN</NAME>
+    </NOTABLE_MANGAKAS>
+  </DISTRIBUTOR>
+  <DISTRIBUTOR>
+    <COMPANY>SHUEISHA</COMPANY>
+    <FOUNDING>1925</FOUNDING>
+    <LOGO>/img/shuesha.jpg</LOGO>
+    <MAGAZINE_LIST>
+      <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
+      <MAGAZINE>RIBBON</MAGAZINE>
+      <!--etcetera -->
+    </MAGAZINE_LIST>
+    <NOTABLE_SERIES>
+      <TITLE>NARUTO</TITLE>
+    </NOTABLE_SERIES>
+    <NOTABLE_MANGAKAS>
+      <NAME>PANCAKEMAN</NAME>
+    </NOTABLE_MANGAKAS>
+  </DISTRIBUTOR>
+  <DISTRIBUTOR>
+    <COMPANY>SHUEISHA</COMPANY>
+    <FOUNDING>1925</FOUNDING>
+    <LOGO>/img/shuesha.jpg</LOGO>
+    <MAGAZINE_LIST>
+      <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
+      <MAGAZINE>RIBBON</MAGAZINE>
+      <!--etcetera -->
+    </MAGAZINE_LIST>
+    <NOTABLE_SERIES>
+      <TITLE>NARUTO</TITLE>
+    </NOTABLE_SERIES>
+    <NOTABLE_MANGAKAS>
+      <NAME>PANCAKEMAN</NAME>
+    </NOTABLE_MANGAKAS>
+  </DISTRIBUTOR>
+  <DISTRIBUTOR>
+    <COMPANY>SHUEISHA</COMPANY>
+    <FOUNDING>1925</FOUNDING>
+    <LOGO>/img/shuesha.jpg</LOGO>
+    <MAGAZINE_LIST>
+      <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
+      <MAGAZINE>RIBBON</MAGAZINE>
+      <!--etcetera -->
+    </MAGAZINE_LIST>
+    <NOTABLE_SERIES>
+      <TITLE>NARUTO</TITLE>
+    </NOTABLE_SERIES>
+    <NOTABLE_MANGAKAS>
+      <NAME>PANCAKEMAN</NAME>
+    </NOTABLE_MANGAKAS>
+  </DISTRIBUTOR>
+  <DISTRIBUTOR>
+    <COMPANY>SHUEISHA</COMPANY>
+    <FOUNDING>1925</FOUNDING>
+    <LOGO>/img/shuesha.jpg</LOGO>
+    <MAGAZINE_LIST>
+      <MAGAZINE>WEEKLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>MONTHLY SHOUNEN JUMP</MAGAZINE>
+      <MAGAZINE>WEEKLY YOUNG JUMP</MAGAZINE>
+      <MAGAZINE>RIBBON</MAGAZINE>
+      <!--etcetera -->
+    </MAGAZINE_LIST>
+    <NOTABLE_SERIES>
+      <TITLE>NARUTO</TITLE>
+    </NOTABLE_SERIES>
+    <NOTABLE_MANGAKAS>
+      <NAME>PANCAKEMAN</NAME>
+    </NOTABLE_MANGAKAS>
+  </DISTRIBUTOR>
+</MANGA_DISTRIBUTORS>

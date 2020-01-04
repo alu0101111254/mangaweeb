@@ -105,7 +105,7 @@
         </xsl:element>
 
 
-        <h2> MANGAWEEB.CO </h2>
+        <!-- <h2> MANGAWEEB.CO </h2>
         <br>
         </br>
         <table>
@@ -124,7 +124,7 @@
               <xsl:value-of select="AUTOR"/>
             </td>
           </xsl:for-each>
-        </table>
+        </table> -->
 
 
 
