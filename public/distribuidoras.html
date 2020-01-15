@@ -1,0 +1,184 @@
+<HTML>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+          MANGAWEEB.COM
+        </title>
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="src/css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><script src="https://www.gstatic.com/firebasejs/7.6.1/firebase.js"></script><script src="src/js/index.js"></script>
+</head>
+<BODY>
+<header id="main-header">
+<nav class="navbar navbar-expand-lg ">
+<a class="navbar-brand weeb" type="button" href="index.html">
+              MANGAWEEB
+            </a>
+<div class="flex-list collapse navbar-collapse" id="navbarSupportedContent">
+<ul>
+<li>
+<center>
+<a class="nav-link navbarfont" type="button" href="index.html">
+                      Home
+                    </a>
+</center>
+</li>
+<li>
+<center>
+<a class="nav-link navbarfont" href="#login-modal" id="login" data-toggle="modal" data-target="#login-modal">
+                      Iniciar
+                      sesion
+                    </a>
+</center>
+</li>
+<li>
+<a class="nav-link navbarfont" href="#signup-modal" id="signup" data-toggle="modal" data-target="#signup-modal">
+                    Registrarse
+                  </a>
+</li>
+<li class="nav-item" style="float:right">
+<a class="nav-link navbarfont" href="">
+                    Distribuidoras
+                  </a>
+</li>
+<li>
+<a class="nav-link dropdown-toggle navbarfont" href="#" id="showuser" role="button" data-toggle="dropdown" haspopup="true" expanded="false"></a>
+<div class="dropdown-menu navbarfont dpmenu dropdown-menu-right" labelledby="showuser">
+<button class="dropdown-item navbarfont dplogout" id="1" onclick="logout()">
+                        logout
+                      </button>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<br>
+<table>
+<td>Akita Shoten<br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Akita_Shoten_logo.png" height="200" width="300"><br>Founded in 1948<br>
+<p>Age : 72</p>
+<p>Magazines:</p>
+<li>Bessatsu Shōnen Champion</li>
+<li>Champion Red</li>
+<li>Young Champion</li>
+<li>Princess</li>
+<p>Notable Mangas:</p>
+<li>Saint Seiya</li>
+<li>Devilman G</li>
+<li>Aki Sora</li>
+<li>Kuro Bara Alice</li>
+<p>Notable Mangakas:</p>
+<li>Masahiro Itosugi</li>
+<li>Nagai</li>
+<li>Kuori</li>
+</td>
+<br>
+<td>Mag Garden<br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/MAG-garden_logo.png" height="200" width="300"><br>Founded in 2001<br>
+<p>Age : 19</p>
+<p>Magazines:</p>
+<li>Monthly Comic Avarus</li>
+<li>Monthly Comic Garden</li>
+<li>Eden</li>
+<p>Notable Mangas:</p>
+<li>Sketchbook</li>
+<li>Shimoneta terrorist</li>
+<li>Psycho Pass</li>
+<p>Notable Mangakas:</p>
+<li>Akagi</li>
+<li>Totan Kobako</li>
+<li>Hikaru Miyoshi</li>
+</td>
+<br>
+<td>SHUEISHA<br>
+<img src="https://dragonball.center/files/module_dbc/fabricantes/lkyg698.jpg" height="200" width="300"><br>Founded in 1925<br>
+<p>Age : 95</p>
+<p>Magazines:</p>
+<li>WEEKLY SHOUNEN JUMP</li>
+<li>MONTHLY SHOUNEN JUMP</li>
+<li>WEEKLY YOUNG JUMP</li>
+<li>RIBBON</li>
+<p>Notable Mangas:</p>
+<li>NARUTO</li>
+<li>BLEACH</li>
+<li>Black Clover</li>
+<li>HunterxHunter</li>
+<p>Notable Mangakas:</p>
+<li>Pancakeman</li>
+<li>Kubo</li>
+<li>Oda</li>
+<li>Kishimoto</li>
+</td>
+<br>
+<td>Square Enix<br>
+<img src="https://theworldwentaway.files.wordpress.com/2012/10/square-enix-logo-e1295410088534.jpg?w=800" height="200" width="300"><br>Founded in 2003<br>
+<p>Age : 17</p>
+<p>Magazines:</p>
+<li>GANGAN COMICS </li>
+<p>Notable Mangas:</p>
+<li>Fullmetal Alchemist</li>
+<li>Soul Eater</li>
+<li>Kingdom Hearts</li>
+<p>Notable Mangakas:</p>
+<li>Arakawa</li>
+<li>Okubo</li>
+</td>
+<br>
+</table>
+<div class=" modal fade" role="dialog" id="login-modal">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">
+          Iniciar sesion
+        </h3>
+<button type="button" class="close" dismiss="modal">
+          X
+        </button>
+</div>
+<div class="modal-body">
+<input type="email" placeholder="Email..." id="email_field"><input type="password" placeholder="Password..." id="password_field"><button onclick="login()">
+          Iniciar sesion
+        </button>
+</div>
+</div>
+</div>
+</div>
+<div class=" modal fade" role="dialog" id="signup-modal">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">
+          Registrarse
+        </h3>
+<button type="button" class="close" dismiss="modal">
+          X
+        </button>
+</div>
+<div class="modal-body">
+<input type="email" placeholder="Email..." id="signup_email_field">
+<br>
+<input type="password" placeholder="Contrase&ntilde;a" id="signup_password_field">
+<br>
+<input type="password" placeholder="Confirme la contrase&ntilde;a" id="signup_password_field2">
+<br>
+<input type="number" placeholder="Edad" id="Edad">
+<br>
+<a>Permisos:</a>
+<br>
+<label><input type="checkbox" id="cbox1" value="first_checkbox">Permitir enviarle publicidad a su email</label>
+<br>
+<input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2">Permitir enviar mangas recomendados a su email</label>
+</div>
+<div class="modal-footer">
+<button onclick="signup()">
+          Registrarse
+        </button>
+</div>
+</div>
+</div>
+</div>
+</BODY>
+</HTML>

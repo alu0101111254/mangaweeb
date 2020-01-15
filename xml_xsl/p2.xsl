@@ -108,6 +108,7 @@
         </br>
         <xsl:element name="table">
           <xsl:for-each select="MANGA_DISTRIBUTORS/DISTRIBUTOR">
+            <xsl:sort select="COMPANY" />
             <xsl:element name="td">
 
               <xsl:value-of select="COMPANY"/>
@@ -123,6 +124,9 @@
               <br>
               </br>
               <xsl:value-of select="FOUNDING"/>
+              <br />
+              <p>Age : <xsl:value-of select="2020-translate(FOUNDING, translate(FOUNDING, '0123456789', ''), '')" /></p>
+
               <p>Magazines:</p>
                 <xsl:for-each select="MAGAZINE_LIST/MAGAZINE">
                   <xsl:element name="li">
@@ -218,21 +222,19 @@
       </xsl:element>
       <xsl:element name="div">
         <xsl:attribute name="class">modal-body</xsl:attribute>
-        <xsl:element name="input">
-          <xsl:attribute name="type">email</xsl:attribute>
-          <xsl:attribute name="placeholder">Email...</xsl:attribute>
-          <xsl:attribute name="id">signup_email_field</xsl:attribute>
-        </xsl:element>
-        <xsl:element name="input">
-          <xsl:attribute name="type">password</xsl:attribute>
-          <xsl:attribute name="placeholder">Contraseña</xsl:attribute>
-          <xsl:attribute name="id">signup_password_field</xsl:attribute>
-        </xsl:element>
-        <xsl:element name="input">
-          <xsl:attribute name="type">password</xsl:attribute>
-          <xsl:attribute name="placeholder">Confirme la contraseña</xsl:attribute>
-          <xsl:attribute name="id">signup_password_field2</xsl:attribute>
-        </xsl:element>
+        <input type="email" placeholder="Email..." id="signup_email_field" />
+        <br></br>
+        <input type="password" placeholder="Contraseña" id="signup_password_field" />
+        <br></br>
+        <input type="password" placeholder="Confirme la contraseña" id="signup_password_field2" />
+        <br></br>
+        <input type="number" placeholder="Edad" id="Edad" />
+        <br></br>
+        <a>Permisos:</a>
+        <br></br>
+        <label><input type="checkbox" id="cbox1" value="first_checkbox" />Permitir enviarle publicidad a su email</label>
+        <br></br>
+        <input type="checkbox" id="cbox2" value="second_checkbox" /> <label for="cbox2">Permitir enviar mangas recomendados a su email</label>
       </xsl:element>
       <xsl:element name="div">
         <xsl:attribute name="class">modal-footer</xsl:attribute>
